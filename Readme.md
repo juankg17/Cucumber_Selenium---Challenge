@@ -18,7 +18,7 @@
      - f.1. chromedriver - Contiene chromedriver.exe - IMPORTANTE - Descargar la versión correspondiente a la versión del navegador desde donde se ejecute.
      - f.2. geckodriver - Contiene geckodriver.exe (Firefox) - IMPORTANTE - Descargar la versión correspondiente a la versión del navegador desde donde se ejecute.
      - f.3. form - Contiene un formulario Prueba.html simple y local para poder realizar la prueba (se asume que los ids y localizadores principales son dinámicos). Se dió importancia a la implementación de un código para acceder mediante un valor, que a los nombres de los campos en sí.
-     - f.4. json - archivo Usuarios.json con datos de un usuario, usado como input para las pruebas.
+     - f.4. jsonfiles - archivo Usuarios.json con datos de un usuario, usado como input para las pruebas.
 3. Para EJECUTAR los scripts:
    - 3.1. Se usa archivo de entrada del tipo json (Usuarios.json), el cual contiene un único "usuario" que va a servir de input para cada script. Por lo que antes de cada ejecución hay que modificar los datos según la prueba.
    - 3.2. Las ejecuciónes se realizan desde la clase Testrunner.
